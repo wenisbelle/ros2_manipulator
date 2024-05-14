@@ -24,9 +24,12 @@ time I'll fix it.
 To launch the simulation run:
 
 
-     ros2 launch robot_gazebo main_indoor.launch.py
+     ros2 launch arm_pkg main_arm.launch.py
 
-This command will: 
+     ros2 launch arm_pkg start_moveit.launch.py
+
+
+These commands will: 
 - start gazebo classic;
 - run the urdf package and the controllers;
 - spawn the robot in gazebo;
@@ -65,5 +68,7 @@ Now you can run the client node and get the objects position:
 ### To Do
 
 [ ] Fix the gripper
+
+[ ] Understand why sometimes the planning doesn't work
 
 [ ] Add OpenCV to pick and place
