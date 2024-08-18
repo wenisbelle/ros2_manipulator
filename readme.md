@@ -67,7 +67,7 @@ Now you can run the client node and get the objects position:
 
 ### To Do
 
-[ ] Fix the gripper
+[ X ] Fix the gripper
 
 [ ] Understand why sometimes the planning doesn't work
 
