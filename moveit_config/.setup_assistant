@@ -7,4 +7,17 @@ moveit_setup_assistant_config:
   package_settings:
     author_name: wenis belle
     author_email: vwenesb@gmail.com
-    generated_timestamp: 1709767706
+    generated_timestamp: 1724018309
+  control_xacro:
+    command:
+      []
+    state:
+      []
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      []
+    state:
+      []
